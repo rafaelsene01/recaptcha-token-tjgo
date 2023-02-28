@@ -1,7 +1,7 @@
 build:
-	docker build -t tjgo/token .
+	docker build -t rafaelsene/node:tokenTJGO .
 prod:
-	docker run -p 4444:4444 -d tjgo/token
+	docker run -p 4444:4444 -d rafaelsene/node:tokenTJGO
 dev:
 	docker-compose up
 hidden:
